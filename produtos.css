@@ -1,0 +1,47 @@
+header{
+    background: #bbbb;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+position: absolute;
+top: 50%;
+right: 0%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15PX;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.Produtos {
+    
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.Produtos li{
+display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align: top;
+}
+
+.prod1{
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
