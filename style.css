@@ -1,60 +1,120 @@
-        body{
-          
-         }
+header{
+    background: #bbbb;
+    padding: 20px 0;
+}
 
-         #banner
-         {
-            width: 100%;
-            height: auto;
-            border: 10px solid black;
-            padding: auto;
-            margin: auto;
-         }
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+position: absolute;
+top: 50%;
+right: 0%;
+}
 
-         .Principal{
-            background-color: aliceblue;
-            padding: 20px;
-         }
-         .titulo-principal{
-padding-left: 20px;
+nav li{
+    display: inline;
+    margin: 0 0 0 15PX;
+}
 
-         }
-         .titulo-center{
-            text-align: center;
-         }
-    p{
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+nav a:hover{
+color: #ecbf42;
+text-decoration: underline;
+}
+
+.Produtos {
+    
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    
+}
+.Produtos li{
+display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align: top;
+
+margin: 0 1.5%;
+padding: 30px 20px;
+background-color: azure;
+box-sizing: border-box;
+border: 2px solid #000;
+border-radius: 10px;
+}
+
+.Produtos li:hover {
+    border-color:#05e0e7a8 ;
+}
+
+.Produtos li:active {
+    border-color:#ecbf42 ;
+}
+
+.Produtos li:hover h2{
+font-size: 35px;
+}
+
+.prod1{
+    position: relative 0px;
+    width: 50%;
+    text-align: center;
+}
+
+.Produtos h2{
+    font-size: 30px;
+    font-weight: bold   ;
+}
+
+footer {
     text-align: center;
 
-    }
-    
-    #Five {
-      font-size: 20px
-    }
-
- em strong{
-    color: red;
 }
 
-.itens {
-   font-style: normal;
-}
-.Beneficios {
-   background: #8db9c7;
-   padding: 20px;
+.copyr {
+    font-size: 25px;
+    margin: 20px 0px;
 }
 
-
-ul{
-   display: inline-block;
-   vertical-align: top;
-   width: 20%;
-   margin-right: 15%;
-}
-.imagemB{
-   width: 100%;
-   
+main  {
+    width: auto;
+    margin: 0 auto;
 }
 
-footer{
-   background: url(../Curso/src/backg.jpg);
+form {
+    margin: 40px 0px; 
+}
+
+form label, form p {
+    display: block;
+    font-size: 25px;
+    margin: 0 0  10px;
+}
+
+.input -padrao{
+    display: block;
+    margin: 0 0  20px;
+    padding: 10px  15px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0px; 
+}
+
+.contato1 {
+    margin: 0 ;
+    right: 50%;
+    width: 940px;
+    text-align: center;
 }
