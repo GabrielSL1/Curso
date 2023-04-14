@@ -95,7 +95,7 @@ form {
     margin: 40px 0px; 
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 25px;
     margin: 0 0  10px;
@@ -115,6 +115,22 @@ form label, form p {
 .contato1 {
     margin: 0 ;
     right: 50%;
-    width: 940px;
+    width: auto;
     text-align: center;
+}
+
+.Enviar {
+    width:40%;
+    padding: 15px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all ;
+    cursor: pointer;
+}
+
+.Enviar:hover{
+background-color: red;
+transform: scale(1.2);
 }
