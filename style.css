@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
 header {
     background: #bbbb;
     padding: 20px 0;
@@ -35,7 +40,7 @@ nav a:hover {
 
 .Produtos {
 
-    width: 50%;
+    width: auto;
     margin: 0 auto;
     padding: 50px 0px;
 
@@ -86,10 +91,12 @@ footer {
 .copyr {
     font-size: 25px;
     margin: 20px 0px;
+
+
 }
 
 main {
-    width: auto;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -144,22 +151,62 @@ form legend {
     width: 40%;
 }
 
-.titulo-center{
+.titulo-center {
     text-align: center;
     font-size: 2em;
     margin: 0 0 0.5em;
-    font-weight:bold ;
-   
+    font-weight: bold;
+
 }
 
-.Principal p{
-margin: 0 0 0.5em;
+.Principal {
+    padding: 0 0 1em;
 }
 
-.Principal strong{
+.Principal p {
+    margin: 0 0 0.5em;
+}
+
+.Principal strong {
     font-weight: bold;
 }
 
-.Principal em{
+.Principal em {
     font-style: italic;
+}
+
+.map {
+    width: auto;
+    margin: 0 auto;
+    padding: 3em 0;
+    background: linear-gradient(rgb(187, 183, 183),rgba(235, 232, 232, 0.685));
+
+}
+
+
+.Conteudo-Beneficios {
+    width: 640px;
+    margin: 0 auto;
+    
+   
+
+}
+
+.lista-Beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+   
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.Copyright{
+    background: linear-gradient(black,white);
+}
+
+.py{
+    padding-top: 16px; padding-bottom: 16px;
 }
