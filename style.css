@@ -159,6 +159,14 @@ form legend {
 
 }
 
+.titulo-center :first-letter{
+    font-weight:bold;
+}
+
+p::first-line{
+    font-style: italic;
+}
+
 .Principal {
     padding: 0 0 1em;
 }
@@ -180,6 +188,7 @@ form legend {
     margin: 0 auto;
     padding: 3em 0;
     background: linear-gradient(rgb(187, 183, 183),rgba(235, 232, 232, 0.685));
+    
 
 }
 
@@ -209,4 +218,21 @@ form legend {
 
 .py{
     padding-top: 16px; padding-bottom: 16px;
+}
+
+@media screen and (max-width: 480px) {
+   .caixa, .Principal , .map ,.Conteudo-Beneficios {
+    width: auto;
+   }
+
+   h1{
+    text-align: center;
+   }
+   nav{
+    position: static;
+   }
+
+   .lista-Beneficios{
+    width: 100%;
+   }
 }
